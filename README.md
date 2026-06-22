@@ -44,7 +44,7 @@ pnpm dev
 
 | Método HTTP | Endpoint            | Descripción                              | Body        |
 | ----------- | ------------------- | ---------------------------------------- | ----------- |
-| GET         | `/api/students`     | Obtiene la lista completa de estudiantes | No requiere |
-| GET         | `/api/students/:id` | Obtiene un estudiante por ID             | No requiere |
-| POST        | `/api/students`     | Registra un nuevo estudiante             | JSON        |
-| PUT         | `/api/students/:id` | Actualiza un estudiante                  | JSON        |
+| GET         | `/students`     | Obtiene la lista completa de estudiantes | No requiere |
+| GET         | `/students/:id` | Obtiene un estudiante por ID             | No requiere |
+| POST        | `/students`     | Registra un nuevo estudiante             | JSON        |
+| PUT         | `/students/:id` | Actualiza un estudiante                  | JSON        |
